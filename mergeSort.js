@@ -35,7 +35,7 @@ function merge(lowArray, highArray,sizeOfLowArray,sizeOfHighArray,newArray) {
     if (lowArray[i] < highArray[j]) {
       newArray[k] = lowArray[i];
       i++;
-      k++;4
+      k++;
     } else {
       newArray[k] = highArray[j];
       j++;
